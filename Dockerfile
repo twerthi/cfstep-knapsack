@@ -8,7 +8,8 @@ RUN apk add --update \
   libxslt-dev \
   jq \
   nodejs \
-  libpq-dev \
+  npm \
+  postgresql-dev \
   python3-dev \
   sqlite-dev \
   && rm -rf /var/cache/apk/*
