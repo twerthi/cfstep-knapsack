@@ -14,6 +14,7 @@ RUN apk add --update \
   sqlite-dev \
   gnu-libiconv \
   shared-mime-info \
+  yaml-dev \
   && rm -rf /var/cache/apk/*
 
 # Install AWS CLI
